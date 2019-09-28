@@ -27,6 +27,11 @@ th, td {
 p{
   align: left;
 }
+
+button{
+  background: #a6192e;
+  color: #ffffff;
+}
 .alignl{
   padding-left: 0px;
 }
