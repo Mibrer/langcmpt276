@@ -1,0 +1,65 @@
+body {
+  background-color: #a6192e;
+  font: normal 100% Cambria,Georgia,"Times New Roman",Times,serif;
+  line-height: 1.5em;
+  margin: 0;
+
+}
+
+h3{
+  color: #A6192E;
+}
+
+table {
+  border: 1px solid grey;
+  font: normal 100% Cambria,Georgia,"Times New Roman",Times,serif;
+  align: left;
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 95%;
+}
+
+th, td {
+  border: 1px solid grey;
+  padding-top: 6px;
+}
+
+p{
+  align: left;
+}
+
+button{
+  background: #a6192e;
+  color: #ffffff;
+}
+.alignl{
+  padding-left: 0px;
+}
+.tabletitle{
+  background-color: #eee;
+  font-weight: bold;
+}
+
+.tablecontent{
+  background-color: #e9eff1;
+  width: 70%;
+  padding: 1%;
+}
+
+.pagecontent{
+  margin: auto;
+  width: 90%;
+  background-color:	#FFFFFF;
+}
+
+.pagehead, .pagefoot{
+  background-color:	#3d3935;
+}
+
+.pagemain{
+  padding: 2%;
+}
+.twobtn{
+  width: 100%;
+
+}
