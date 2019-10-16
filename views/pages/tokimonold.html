@@ -11,6 +11,30 @@
  <ol>   <ul>
 -->
 
+<html>
+<head>
+
+</head>
+
+<body>
+
+<div class="container">
+<h2>Database Results</h2>
+
+<ul>
+    <% results.forEach(function(r) { %>
+        <li><%= r.id %> - <%= r.name %></li>
+    <% }); %>
+</ul>
+
+</div>
+
+</body>
+</html>
+
+
+<!--
+
 
 
 <html lang="en">
@@ -37,11 +61,11 @@
 					</div>
 
 					<div>
-						<button id="btnweight">Add+</button>
-						<button id="btnmean">Change*</button>
-            <button id="btnmean">Delete-</button>
-            <button id="btnmean">Display one tokimon</button>
-            <button id="btnmean">Display all</button>
+						<button id="btnadd">Add+</button>
+						<button id="btnchange">Change*</button>
+            <button id="btndelete">Delete-</button>
+            <button id="btndisplayone">Display one tokimon</button>
+            <button id="btndisplayall">Display all</button>
 
             <button id="btnmean">Search</button>
             <button id="btnmean">train</button>
@@ -53,9 +77,6 @@
 					</table>
 
 
-
-
-
 				</div>
 			</div>
 
@@ -65,6 +86,9 @@
 			</div>
 		</div>
 	</body>
+
+
 <script src="tokimon.js" defer></script>
 
 </html>
+-->

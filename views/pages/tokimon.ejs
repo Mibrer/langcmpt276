@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!--Langjia Wu 301387029 -->
+<!-- CMPT276 Assignment 2 -->
+
+<!-- things that I might need
+<a href="http://www.centralpark.com">Central Park</a>
+<a href="index.html">Home</a>
+<a href="#top">Go to Top of Document</a>
+<a name="top">
+<img src="images/central-park.jpg" alt="Central Park" title="Central Park" width="80" height="40" />     alt for missing page, title for hovor
+ <ol>   <ul>
+-->
+
+<html>
+<head>
+
+</head>
+
+<body>
+
+<div class="container">
+<h2>Database Results</h2>
+
+<ul>
+    <%
+
+     results.forEach(function(r) {
+       %>
+        <li><%= r.id %> - <%= r.name %>    <button onclick="datadelete(event)" name = <%= r.id %> >Delete this tokimon!!</button></li>
+
+    <% }); %>
+</ul>
+
+</div>
+
+<div>
+  <form action="/tokimon/add" method="POST">
+      <input type="text" value="toki" placeholder="name" name="name">
+      <input type="number" value="0" placeholder="0" name="weight">
+      <input type="number" value="1" placeholder="0" name="height">
+      <input type="number" value="0" placeholder="0" name="fly">
+      <input type="number" value="0" placeholder="0" name="fight">
+      <input type="number" value="0" placeholder="0" name="fire">
+      <input type="number" value="0" placeholder="0" name="water">
+      <input type="number" value="0" placeholder="0" name="electric">
+      <input type="number" value="0" placeholder="0" name="frozen">
+      <input type="number" value="0" placeholder="0" name="total">
+      <input type="text" value="ttt" placeholder="test" name="trainername">
+
+      <button type="submit">Submit</button>
+  </form>
+
+</div>
+  <script src="tokimon.js" defer></script>
+</body>
+</html>
+
+
+<!--
+
+
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="tokimon.css" type="text/css">
+
+		<title>Tokimon Management System</title>
+	</head>
+
+	<body>
+		<div id="" class="pagecontent">
+			<div id="" class="pagehead">
+				<br/>
+			</div>
+
+			<div id="" class="pagemain">
+				<h1>Welcome! Tokimon trainer</h1>
+
+				<div id="" class="tablecontent">
+
+          <div>
+						<h3>Operations</h3>
+					</div>
+
+					<div>
+						<button id="btnadd">Add+</button>
+						<button id="btnchange">Change*</button>
+            <button id="btndelete">Delete-</button>
+            <button id="btndisplayone">Display one tokimon</button>
+            <button id="btndisplayall">Display all</button>
+
+            <button id="btnmean">Search</button>
+            <button id="btnmean">train</button>
+					</div>
+
+					<table>
+
+
+					</table>
+
+
+				</div>
+			</div>
+
+
+			<div id="" class="pagefoot">
+				<br/>
+			</div>
+		</div>
+	</body>
+
+
+
+
+</html>
+-->
